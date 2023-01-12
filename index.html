@@ -45,21 +45,31 @@
 
 	<hr>
 
-	<h2>About Me</h2>
-	<p>Hello! I'm Rick Sanchez. I am a genius scientist, capable of creating complex scientific inventions.</p>
+	<h2 class="fst-italic text-info-emphasis">About Me</h2>
+	<p class="blockquote bg-success text-white bg-opacity-75 p-2" >Hello! I'm Rick Sanchez. I am a genius scientist, capable of creating complex scientific inventions.</p>
 
 	<hr>
 
-	<h2>Skills</h2>
+	<h2 class="fst-italic text-info-emphasis">Skills</h2>
 	<label>Intelect:</label>
-	<progress value="100" max="100"></progress><br>
-	<label>Physical Fitness:</label>
-	<progress value="90" max="100"></progress><br>
-	<label>Combat Prowess:</label>
-	<progress value="80" max="100"></progress><br>
-	<label>Sanity:</label>
-	<progress value="0" max="100"></progress><br>
+	<div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 100%"></div>
+	</div>
 
+	<label>Physical Fitness:</label>
+	<div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 90%"></div>
+	</div>
+
+	<label>Combat Prowess:</label>
+	<div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 70%"></div>
+	</div>
+
+	<label>Sanity:</label>
+	<div class="progress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  		<div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 0%"></div>
+	</div>
 	<hr>
 
 	<h2>Projects</h2>
